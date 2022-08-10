@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="1024.0" styleClass="casual-background" stylesheets="@../../../../../ABS_Client_App/src/javafx/resources/files/AdminScene.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.scenes.login.AdminLoginScene">
+   <children>
+      <BorderPane layoutX="314.0" layoutY="159.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="casual-background" stylesheets="@../../../../../ABS_Client_App/src/javafx/resources/files/AdminScene.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label styleClass="head-line-label" stylesheets="@../../../resources/files/Discount.css" text="A.B.S" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../resources/images/main_mini_logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label styleClass="head-line-label" stylesheets="@../../../resources/files/Discount.css" text="Alternative Banking System" />
+               </children>
+               <BorderPane.margin>
+                  <Insets top="20.0" />
+               </BorderPane.margin>
+            </VBox>
+         </top>
+         <center>
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Username:">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Bodoni MT Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username_admin_login" prefHeight="31.0" prefWidth="334.0" />
+               </children>
+               <BorderPane.margin>
+                  <Insets top="50.0" />
+               </BorderPane.margin>
+            </HBox>
+         </center>
+         <bottom>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="casual-background" stylesheets="@../../../../../ABS_Client_App/src/javafx/resources/files/AdminScene.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="error_label_admin_login" text="Label" visible="false" />
+                  <Button fx:id="enter_button_admin_login" mnemonicParsing="false" onAction="#onClickEnterButton" prefHeight="47.0" prefWidth="140.0" styleClass="button-inherit" stylesheets="@../../../resources/files/Discount.css" text="Enter" />
+               </children>
+            </VBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

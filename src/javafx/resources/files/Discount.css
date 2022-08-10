@@ -1,0 +1,196 @@
+.background{
+    -fx-background-color: #e6ffe6;
+}
+
+.color-background
+{
+    -fx-background-color: #595959;
+}
+
+.combobox{
+    -fx-text-fill: #ffffff;
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-pref-width: 180;
+    -fx-pref-height: 40;
+    -fx-background-color: linear-gradient(#3A880F, #004603,#3A880F);
+}
+
+.combo-box > .list-cell {
+    -fx-text-fill: white;
+}
+
+.combobox:hover{
+    -fx-background-color: linear-gradient(#004603, #3A880F,#004603);
+}
+
+combobox:row-selection{
+    -fx-pref-width: 110;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.button-inherit{
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-padding:10px 4px;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-radius: 10;
+    -fx-border-color: black;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(#3A880F, #004603,#3A880F);
+    -fx-effect: dropshadow( three-pass-box , #e6ffe6 , 0,0,0,1 );
+}
+
+.button-inherit:hover{
+    -fx-background-color: linear-gradient(#004603, #3A880F,#004603);
+}
+
+.analyze-label:showing{
+    -fx-text-fill: black;
+    -fx-font-size: 15;
+    -fx-font-family: "Bodoni MT";
+    -fx-font-weight: bold;
+}
+
+.charge-btn{
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+    -fx-padding:10px 4px;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-radius: 30;
+    -fx-border-color: black;
+    -fx-background-radius: 30;
+    -fx-background-color: linear-gradient(#00cc44, #66ff99);
+}
+
+.charge-btn:hover{
+    -fx-background-color: linear-gradient(#66ff99,#00cc44);
+}
+
+.withdraw-btn{
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+    -fx-padding:10px 4px;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-radius: 30;
+    -fx-border-color: black;
+    -fx-background-radius: 30;
+    -fx-background-color: linear-gradient(#ff6666 ,#cc0000);
+}
+
+.withdraw-btn:hover{
+    -fx-background-color: linear-gradient( #cc0000, #ff6666);
+}
+
+#load_status_label{
+    -fx-text-fill: black;
+    -fx-font-size: 15;
+    -fx-font-family: "Arial";
+}
+
+#current_yaz_label_admin_scene{
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-family: "Arial";
+}
+
+#current_yaz_label_customers_scene
+{
+    -fx-text-fill: black;
+    -fx-font-size: 15;
+    -fx-font-family: "Arial";
+}
+
+#welcome_label_cust_scene
+{
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 21px;
+    -fx-text-fill: black;
+    -fx-font-style: italic;
+}
+
+#welcome_label_admin_scene
+{
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 21px;
+    -fx-text-fill: white;
+    -fx-font-style: italic;
+}
+
+.head-line-label{
+    -fx-text-fill: #339966;
+    -fx-font-size: 40;
+    -fx-font-family: "Bodoni MT";
+    -fx-font-weight: bold;
+}
+
+
+.table-view {
+    -fx-background-color: transparent;
+
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #93f9b911, #28730b);
+    -fx-background-radius: 7px 7px 7px 7px;
+    -fx-background-insets: 0 0px 0 0;
+    -fx-padding: 0 0px 0px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-border-radius: 20;
+    -fx-padding: 2 0 2 0px;
+}
+.table-row-cell:hover {
+    -fx-background-color: #93f9b911;
+}
+.table-row-cell:odd{
+    -fx-background-color: linear-gradient(to bottom, rgb(197, 197, 197), rgb(179, 224, 162));
+    -fx-text-fill: black;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+.table-row-cell:even{
+    -fx-background-color: linear-gradient(to bottom, rgb(197, 197, 197), rgb(179, 224, 162));
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-text-fill: black;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-font-size: 18;
+    -fx-font-style: italic;
+    -fx-text-fill: #404040;
+    -fx-alignment: top-left;
+}
+
+.table-view .table-cell{
+    -fx-font-size: 16;
+    -fx-text-fill: black;
+}
+
+
+

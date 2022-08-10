@@ -1,0 +1,90 @@
+.casual-background{
+    -fx-background-color: lightgrey;
+}
+
+.casual-combobox{
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-background-radius: 20;
+    -fx-pref-width: 180;
+    -fx-pref-height: 40;
+    -fx-background-color: linear-gradient(#ffff66, #ffcc00);
+    -fx-effect: dropshadow( three-pass-box , rgb(255, 255, 102) , 0,0,0,1 );
+
+}
+
+
+.casual-combobox:hover{
+    -fx-background-color: linear-gradient(#ffcc00 ,#ffff66);
+    -fx-cursor:"pointer";
+}
+
+.casual-button{
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+    -fx-padding:10px 4px;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-radius: 30;
+    -fx-border-color: black;
+    -fx-background-radius: 30;
+    -fx-background-color: linear-gradient(#ffff66, #ffcc00);
+    -fx-effect: dropshadow( three-pass-box , rgb(255, 255, 102) , 0,0,0,1 );
+}
+
+
+.casual-button:hover{
+    -fx-background-color: linear-gradient(#ffcc00 ,#ffff66);
+    -fx-cursor: pointer;
+}
+
+.casual-label{
+    -fx-color-label-visible: #3366ff;
+    -fx-font-size: 40;
+    -fx-font-family: "Bodoni MT";
+    -fx-font-weight: bold;
+}
+
+
+.discount-button{
+    -fx-border-radius: 12px;
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+    -fx-padding:10px 15px;
+    -fx-text-alignment: center;
+    -fx-font-weight: 100%;
+    -fx-font-size: 16px;
+    -fx-border-radius: 30;
+    -fx-border-color: white;
+    -fx-background-color: #80ff80;
+    -fx-background-radius: 30;
+    -fx-color-label-visible: black;
+}
+
+
+.poalim-button{
+    -fx-cursor: pointer;
+    -fx-font-weight: bold;
+    -fx-padding:10px 15px;
+    -fx-text-alignment: center;
+    -fx-font-weight: 100%;
+    -fx-font-size: 16px;
+    -fx-border-radius: 30;
+    -fx-border-color: white;
+    -fx-background-color: #ff8080;
+    -fx-background-radius: 30;
+    -fx-color-label-visible: white;
+}
+
+.discount-background{
+    -fx-background-color: lightgreen;
+}
+
+.leumi-background{
+    -fx-background-color: lightblue;
+}
+
